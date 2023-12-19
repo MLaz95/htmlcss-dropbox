@@ -14,16 +14,16 @@ body{
     height: 500px;
     /* test */
 
-    max-width: 60%;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* .container{
-    max-width: 50%;
+.container{
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-} */
+}
 
 /* top navbar */
 nav{
@@ -51,28 +51,36 @@ nav div{
 }
 /* end top navbar */
 
+/* header */
+main{
+    height: calc(100vh - 50px);
+    margin-top: 50px;
+    overflow-y: auto;
+}
+
 header{
-    height: 500px;
+    height: 735px;
     /* test */
 
-    padding-top: calc(50px + 60px); /* navbar height + padding */
+    padding-top: 60px;
     background-color: #B4D0E7;
+    margin-bottom: calc(35px + 60px); /* head-flex position offset + margin */
 }
 
 header h1{
-    font-size: 45px;
+    font-size: 77px;
     font-weight: 800;
 }
 
 .head-flex{
     display: flex;
     position: relative;
-    top: 35px;
+    top: 60px;
 }
 
-.img{
-    flex-grow: 1;
-    height: 300px;
+.head-img{
+    width: 785px;
+    height: 460px;
     background-color: blueviolet;
     /* test */
 }
@@ -80,5 +88,73 @@ header h1{
 .head-text{
     background-color: chartreuse;
     /* test */
-    max-width: 250px;
+    flex-grow: 1;
 }
+/* end header */
+
+/* section business plan */
+main h2{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.btn-radial{
+    height: 20px;
+    background-color: aquamarine;
+    /* test */
+
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.plans{
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.plans > div{
+    background-color: orange;
+    height: 900px;
+    /* test */
+    width: 300px;
+}
+
+.plan-title{
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.plan-enterprise{
+    background-color: orange;
+    height: 255px;
+    /* test */
+
+    width: 100%;
+    margin-bottom: 150px;
+}
+
+.contact-flex{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 170px;
+}
+
+.contact-img{
+    background-color: blueviolet;
+    width: 600px;
+    height: 510px;
+    /* test */
+}
+
+.contact-text{
+    height: 510px;
+    background-color: chartreuse;
+    /* test */
+
+    flex-grow: 1;
+}
+/* end section business plan */
