@@ -220,6 +220,7 @@ main h3{
 .testimonial-cta{
     background-color: #B4D0E7;
     padding: 140px;
+    margin-bottom: 160px;
 }
 
 .cta{
@@ -240,3 +241,17 @@ main h3{
     font-size: 18px;
 }
 /* end testimonials */
+
+/* faq */
+.faq{
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 150px;
+}
+
+.faq li{
+    padding: 40px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+/* end faq */
