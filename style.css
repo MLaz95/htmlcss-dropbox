@@ -186,3 +186,57 @@ main h3{
     /* test */
 }
 /* end dropbox business */
+
+/* testimonials */
+.testimonial-title{
+    margin-bottom: 150px;
+}
+
+.testimonials{
+    display: flex;
+}
+
+.testimonials-container{
+    width: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.testimonial-box{
+    background-color: brown;
+    border: 2px dashed black;
+    /* test */
+    width: calc(100vw / 6);
+    height: calc(100vw / 6);
+}
+
+.testimonials-center{
+    height: calc(100vw / 3);
+    background-color: gray;
+    /* test */
+    flex-grow: 1;
+}
+
+.testimonial-cta{
+    background-color: #B4D0E7;
+    padding: 140px;
+}
+
+.cta{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.cta h2{
+    max-width: 470px;
+    margin: 0;
+}
+
+.cta div{
+    width: 300px;
+    background-color: white;
+    padding: 15px 45px;
+    font-size: 18px;
+}
+/* end testimonials */
