@@ -10,10 +10,6 @@ body{
 }
 
 .margin-container{
-    /* background-color: black; */
-    height: 500px;
-    /* test */
-
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -255,3 +251,29 @@ main h3{
     border-bottom: 1px solid lightgray;
 }
 /* end faq */
+
+/* footer */
+footer{
+    height: 565px;
+    color: white;
+    /* test */
+    background-color: black;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.ft-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.faq-card{
+    width: 155px;
+    height: 220px;
+    background-color: chartreuse;
+    /* test */
+}
+/* end footer */
