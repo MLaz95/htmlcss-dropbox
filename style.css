@@ -98,6 +98,10 @@ main h2{
     margin-bottom: 60px;
 }
 
+main h3{
+    font-size: 24px;
+}
+
 .btn-radial{
     height: 20px;
     background-color: aquamarine;
@@ -158,3 +162,27 @@ main h2{
     flex-grow: 1;
 }
 /* end section business plan */
+
+/* dropbox business */
+.business-tools{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px 0px;
+
+    margin-bottom: 210px;
+}
+
+.business-tools > div{
+    height: 460px;
+    background-color: orange;
+    /* test */
+    width: 300px;
+}
+
+.business-img{
+    height: 215px;
+    background-color: blueviolet;
+    /* test */
+}
+/* end dropbox business */
