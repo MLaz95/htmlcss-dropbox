@@ -8,3 +8,77 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+.margin-container{
+    /* background-color: black; */
+    height: 500px;
+    /* test */
+
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .container{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* top navbar */
+nav{
+    background-color: darkred;
+    height: 50px;
+    /* test */
+
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+nav div{
+    width: 30%;
+    height: 100%;
+    background-color: orange;
+    /* test */
+
+    display: flex;
+}
+/* end top navbar */
+
+header{
+    height: 500px;
+    /* test */
+
+    padding-top: calc(50px + 60px); /* navbar height + padding */
+    background-color: #B4D0E7;
+}
+
+header h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.head-flex{
+    display: flex;
+    position: relative;
+    top: 35px;
+}
+
+.img{
+    flex-grow: 1;
+    height: 300px;
+    background-color: blueviolet;
+    /* test */
+}
+
+.head-text{
+    background-color: chartreuse;
+    /* test */
+    max-width: 250px;
+}
