@@ -214,8 +214,11 @@ header h1{
     margin: 50px 0px;
 }
 
+.card-perks ul{
+    margin-top: 30px;
+}
+
 .card-perks li{
-    margin: 30px 0px;
     position: relative;
     padding-left: 20px;
 }
@@ -230,14 +233,30 @@ header h1{
 }
 /* end individual card style */
 
+/* horizontal enterprise card */
 .plan-enterprise{
-    background-color: orange;
-    height: 255px;
-    /* test */
-
     width: 100%;
     margin-bottom: 150px;
+    border: 1px solid lightgray;
 }
+
+.enterprise-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+
+.enterprise-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 75%;
+}
+
+.enterprise-content{
+    padding: 30px;
+}
+/* end horizontal enterprise card */
 
 .contact-flex{
     display: flex;
