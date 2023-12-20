@@ -84,12 +84,9 @@ main{
 }
 
 header{
-    height: 735px;
-    /* test */
-
     padding-top: 60px;
     background-color: #B4D0E7;
-    margin-bottom: calc(35px + 60px); /* head-flex position offset + margin */
+    margin-bottom: calc(60px + 90px); /* head-flex position offset + margin */
 }
 
 header h1{
@@ -104,19 +101,29 @@ header h1{
 }
 
 .head-img{
-    width: 785px;
-    height: 460px;
-    background-color: blueviolet;
-    /* test */
     flex-grow: 1;
 }
 
-.head-text{
-    background-color: chartreuse;
-    max-width: 400px;
+.head-img img{
+    max-width: 100%;
+}
 
-    /* test */
-    /* flex-grow: 1; */
+.head-text{
+    max-width: 400px;
+}
+
+.head-text p{
+    margin-bottom: 35px;
+}
+
+.head-text .button{
+    display: inline-block;
+    margin-bottom: 35px;
+}
+
+.fa.fa-arrow-down{
+    font-size: 45px;
+    margin-top: 75px;
 }
 /* end header */
 
