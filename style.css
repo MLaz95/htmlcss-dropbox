@@ -169,7 +169,6 @@ header h1{
     padding: 40px 30px;
     display: flex;
     flex-direction: column;
-    /* gap: 50px; */
 }
 
 .card-head{
@@ -191,6 +190,21 @@ header h1{
     margin-bottom: 50px;
 }
 
+.card-content ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-features li{
+    display: flex;
+    justify-content: first baseline;
+    align-items: first baseline;
+    gap: 5px;
+    font-size: 14px;
+}
+
 .card-content .button{
     margin-bottom: 30px;
 }
@@ -198,11 +212,6 @@ header h1{
 .card-content hr{
     max-width: 50px;
     margin: 50px 0px;
-}
-
-.card-perks ul{
-    list-style-type: none;
-    /* list-style-position: inside; */
 }
 
 .card-perks li{
