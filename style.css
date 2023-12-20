@@ -419,31 +419,35 @@ header h1{
     max-width: 100px;
     margin: 40px 0px;
 }
-        /* custom style for each box */
+    /* custom style for each box */
 
+    /* cta */
 .testimonial-cta{
     background-color: #B4D0E7;
     padding: 140px;
     margin-bottom: 160px;
+    
 }
 
 .cta{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    gap: 225px;
 }
 
 .cta h2{
-    max-width: 470px;
+    flex-grow: 1;
     margin: 0;
+    color: #61082B;
 }
 
-.cta div{
-    width: 300px;
-    background-color: white;
-    padding: 15px 45px;
-    font-size: 18px;
+.btn-cta{
+    width: 350px;
+    border: none;
 }
+    /* end cta */
+
 /* end testimonials */
 
 /* faq */
@@ -454,11 +458,15 @@ header h1{
 }
 
 .faq li{
-    padding: 40px;
+    padding: 40px 0px;
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
     display: flex;
     justify-content: space-between;
+}
+
+.faq .fa-chevron-down{
+    padding: 0px 40px;
 }
 /* end faq */
 
@@ -501,5 +509,9 @@ footer li{
     height: 220px;
     background-color: chartreuse; */
     /* test */
+}
+
+footer .language{
+    color: #999998;
 }
 /* end footer */
