@@ -9,7 +9,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.margin-container{
+.container-big{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -79,12 +79,15 @@ header h1{
     height: 460px;
     background-color: blueviolet;
     /* test */
+    flex-grow: 1;
 }
 
 .head-text{
     background-color: chartreuse;
+    max-width: 400px;
+
     /* test */
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 /* end header */
 
@@ -118,7 +121,7 @@ main h3{
     background-color: orange;
     height: 900px;
     /* test */
-    width: 300px;
+    width: calc(100% / 3 - 50px / 3 * 2);
 }
 
 .plan-title{
@@ -207,7 +210,6 @@ main h3{
 }
 
 .testimonials-center{
-    height: calc(100vw / 3);
     background-color: gray;
     /* test */
     flex-grow: 1;
