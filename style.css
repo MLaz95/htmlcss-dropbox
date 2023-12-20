@@ -311,16 +311,16 @@ header h1{
 }
 
 .business-tools > div{
-    height: 460px;
-    background-color: orange;
-    /* test */
     width: 300px;
 }
 
-.business-img{
-    height: 215px;
-    background-color: blueviolet;
-    /* test */
+.business-tools h3{
+    margin-bottom: 35px;
+}
+
+.business-img img{
+    max-width: 100%;
+
 }
 /* end dropbox business */
 
