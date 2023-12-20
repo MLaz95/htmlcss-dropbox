@@ -160,7 +160,7 @@ header h1{
     margin-bottom: 50px;
 }
 
-/* individual card style */
+    /* individual card style */
 .plan-card{
     width: calc(100% / 3 - 50px / 3 * 2);
     border: 1px solid lightgray;
@@ -238,9 +238,9 @@ header h1{
     top: 5px;
     color: #0061FF;
 }
-/* end individual card style */
+    /* end individual card style */
 
-/* horizontal enterprise card */
+    /* horizontal enterprise card */
 .plan-enterprise{
     width: 100%;
     margin-bottom: 150px;
@@ -263,8 +263,9 @@ header h1{
 .enterprise-content{
     padding: 30px;
 }
-/* end horizontal enterprise card */
+    /* end horizontal enterprise card */
 
+    /* contact dropbox partner section */
 .contact-flex{
     display: flex;
     justify-content: center;
@@ -273,10 +274,6 @@ header h1{
 }
 
 .contact-img{
-    /* background-color: blueviolet; */
-    /* width: 600px;
-    height: 510px; */
-    /* test */
     flex-grow: 1;
 }
 
@@ -300,7 +297,7 @@ header h1{
 .contact-text .button.btn-white{
     max-width: 155px;
 }
-
+    /* end contact dropbox partner section */
 /* end section business plan */
 
 /* dropbox business */
