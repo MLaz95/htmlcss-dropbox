@@ -5,6 +5,7 @@
 }
 /* reset */
 
+/* general rules */
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -21,12 +22,15 @@ body{
     margin-right: auto;
 }
 
+.button{
+    padding: 10px 15px;
+    background-color: #0061FF;
+    color: white;
+}
+/* end general rules */
+
 /* top navbar */
 nav{
-    background-color: darkred;
-    height: 50px;
-    /* test */
-
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -35,15 +39,40 @@ nav{
     left: 0;
     top: 0;
     z-index: 10;
+
+    padding: 20px;
+    background-color: white;
 }
 
 nav div{
-    width: 30%;
-    height: 100%;
-    background-color: orange;
-    /* test */
-
     display: flex;
+    align-items: center;
+}
+
+.nav-left{
+    display: flex;
+    gap: 40px;
+}
+
+.nav-right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-left img{
+    height: 25px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: black;
 }
 /* end top navbar */
 
