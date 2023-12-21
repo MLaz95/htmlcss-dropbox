@@ -159,11 +159,67 @@ header h1{
 /* end header */
 
 /* section business plan */
+
     /* radio buttons */
 .btn-radio{
     display: flex;
     gap: 50px;
     margin-bottom: 50px;
+}
+
+.btn-radio-container{
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+    display: block;
+}
+
+    /* hides default input */
+.btn-radio-container input{
+    position: absolute;
+    opacity: 0;
+}
+
+    /* creates custom button */
+.check{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+    /* background change on hover and click */
+.btn-radio-container:hover .check{
+    background-color: lightgray;
+}
+
+.btn-radio-container input:checked ~ .check{
+    background-color: #0061FF;
+}
+
+    /* creates dot indicator and styles it */
+.check:after{
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.btn-radio-container input:checked ~ .check:after{
+    display: block;
+}
+
+.btn-radio-container .check:after{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
 }
     /* end radio buttons */
 
