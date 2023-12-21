@@ -537,19 +537,22 @@ header h1{
 .faq li p{
     margin-top: 20px;
     font-weight: normal;
-    display: none;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.3s;
 }
 
 .faq li:hover p{
-    display: block;
-}
-
-.faq li:hover .fa-chevron-down{
-    transform: scale(-1);
+    max-height: 45px;
 }
 
 .faq .fa-chevron-down{
     padding: 0px 40px;
+    transition: transform 0.3s;
+}
+
+.faq li:hover .fa-chevron-down{
+    transform: scale(-1);
 }
 /* end faq */
 
