@@ -28,6 +28,7 @@ body{
     color: white;
     text-align: center;
     font-size: 15px;
+    white-space: nowrap;
 }
 
 .btn-white{
@@ -333,47 +334,61 @@ header h1{
     display: flex;
 }
 
-    /* general for all boxes */
+    /* general for all small boxes */
 .testimonials-container{
     width: calc(100vw / 3);
+    height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
 }
 
 .testimonial-box{
-    width: calc(100vw / 6);
-    height: calc(100vw / 6);
-}
-
-.box-flex{
+    width: 50%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 0px solid rgba(255, 255, 255, 0.5);
 }
+
 
 .testimonial-box img{
-    filter: invert(100);
-    max-width: 160px;
+    filter: invert(1);
+    max-width: 50%;
 }
-    /* end general for all boxes */
+    /* end general for all  small boxes */
 
-    /* custom style for each box */
+    /* big central box */
+.testimonials-center{
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    height: 100%;
+    padding: 50px;
+    overflow-y: auto;
+}
+
+.testimonials-center img{
+    max-width: 270px;
+}
+
+.testimonials-center hr{
+    max-width: 100px;
+    margin: 40px 0px;
+}
+    /* big central box */
+
+    /* background for each box */
 .designit-green.box-small img{
     max-width: 145px;
 }
 
-.back-green{
-    background-color: #D1E9CD;
+.testimonial-box.active, .testimonial-box:hover{
+    border-width: 15px;
 }
 
-.designit-green{
-    width: 90%;
-    height: 90%;
+.green{
     background-color: #A2D39B;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .dark-red{
@@ -404,22 +419,7 @@ header h1{
     background-color: #FFD830;
 }
 
-.testimonials-center{
-    background-color: #F5F5F5;
-    flex-grow: 1;
-    flex-basis: 0;
-    padding: 50px;
-}
-
-.testimonials-center img{
-    max-width: 270px;
-}
-
-.testimonials-center hr{
-    max-width: 100px;
-    margin: 40px 0px;
-}
-    /* custom style for each box */
+    /* background for each box */
 
     /* cta */
 .testimonial-cta{
@@ -443,7 +443,6 @@ header h1{
 }
 
 .btn-cta{
-    width: 350px;
     border: none;
 }
     /* end cta */
@@ -502,13 +501,6 @@ footer li{
 .ft-bottom hr{
     max-width: 120px;
     margin-bottom: 50px;
-}
-
-.ft-card{
-    /* width: 155px;
-    height: 220px;
-    background-color: chartreuse; */
-    /* test */
 }
 
 footer .language{
