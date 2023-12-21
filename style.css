@@ -23,18 +23,27 @@ body{
 }
 
 .button{
-    padding: 10px 15px;
-    background-color: #0061FF;
-    color: white;
     text-align: center;
     font-size: 15px;
     white-space: nowrap;
+    padding: 10px 15px;
+    background-color: #418aff;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #6aa3ff;
 }
 
 .btn-white{
     background-color: white;
     color: black;
     border: 1px solid black;
+}
+
+.btn-white:hover{
+    background-color: lightgray;
 }
 
 main h2{
@@ -91,6 +100,10 @@ nav ul{
 nav ul a{
     text-decoration: none;
     color: black;
+}
+
+nav ul a:hover{
+    text-decoration: underline;
 }
 /* end top navbar */
 
@@ -501,6 +514,15 @@ footer ul{
 
 footer li{
     line-height: 2em;
+}
+
+footer li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer li a:hover{
+    text-decoration: underline;
 }
 
 .ft-container{
