@@ -462,6 +462,21 @@ header h1{
     border-bottom: 1px solid lightgray;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.faq li p{
+    margin-top: 20px;
+    font-weight: normal;
+    display: none;
+}
+
+.faq li:hover p{
+    display: block;
+}
+
+.faq li:hover .fa-chevron-down{
+    transform: scale(-1);
 }
 
 .faq .fa-chevron-down{
